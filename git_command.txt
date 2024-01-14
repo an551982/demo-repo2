@@ -12,5 +12,5 @@ git commit -m "first commit demo2"
         % git push origin master
         or with -u to set up default repo and then later no need to type out origin master
         % git push -u origin master
-        later you can use "% git push -u" to push to the same repo
+        later you can use "% git push" to push to the same repo
     
