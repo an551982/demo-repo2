@@ -1,1 +1,16 @@
 git init
+git add .
+git commit -m "first commit demo2"
+
+# push to github
+# cannot use git push now because github has not remote of this yet
+# create it on github, use one of two
+# 1.1 create a new repo "demo-repo2" on github, copy the link
+# 1.2 add reference on commandline:
+        % git remote add origin <remote git repo link>
+        % git remote -v
+        % git push origin master
+        or with -u to set up default repo and then later no need to type out origin master
+        % git push -u origin master
+        later you can use "% git push -u" to push to the same repo
+    
